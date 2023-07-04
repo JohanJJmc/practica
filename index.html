@@ -8,6 +8,7 @@
     <title>Test</title>
     <link rel="stylesheet" href="/Styles/style.css">
     <link rel="shortcut icon" href="/resources/favicon.svg" type="svg">
+
 </head>
 
 <body>
@@ -30,16 +31,9 @@
         <h4>1.1.1.6 Reptiles</h4>
         <h4>1.1.1.6 last edition</h4>
 
-        <P>esto es una prueba para ver como son las subidas de github</P>
-        <P>esto es una prueba para ver como son las subidas de github</P>
-        <button>Hola esto es otra prueba para crear revizar la sinc de GIT </button>
 
-        <div class="span text">
-            <Span>lista de animales</Span>
-            <span> especies pt4</span>
-        </div>
 
-        <Div>
+        <Div id="list_arepa">
             <h1>Arepas venezolanas</h1>
             <h3>Ingredientes</h3>
             <ul>
@@ -62,6 +56,18 @@
                 <li>coloque la masa aplastada y circular sobre la sarten previamente huntada de mantequilla</li>
 
             </ol>
+            <div id="containercook">
+                <div>
+                    <a
+                        href="https://www.google.com/search?q=arepa%20venezolana&tbm=isch&tbs=isz:l&hl=es-419&sa=X&ved=0CAIQpwVqFwoTCJjhmZ2Q9v8CFQAAAAAdAAAAABAD&biw=2034&bih=1057#imgrc=1uwu9M72iSS-yM">
+                        <img class="img_arepa" src="resources/arepa.jpg" alt="arepa venezolanas">
+                    </a>
+                </div>
+                <div>
+                    <iframe width="600" height="300" src="https://www.youtube.com/embed/mIwMwEiY188" title="AREPAS: pão de farinha de milho tradicional da Venezuela | Rodrigo Hilbert | Tempero de Família" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+            </div>
         </Div>
 
         <Div>
@@ -89,88 +95,100 @@
 
             </table>
 
-            <table style="margin-top: 30px; width: 500px; text-align: center;" border="1px">
-                <tr>
-                    <th>item</th>
-                    <th>item</th>
-                    <th>item</th>
-                </tr>
-                <tr>
-                    <td>item</td>
-                    <td>item</td>
-                    <td>item</td>
-                </tr>
-                <tr>
-                    <td>item</td>
-                    <td>item</td>
-                    <td>item</td>
-                </tr>
-
-            </table>
-        </Div>
-        <button style="margin-bottom: 100px;">
-            <a href="//https: youtube.com">Click aqui</a>
-        </button>
-
-        <Form style="width: 500px; margin-bottom: 100px; font-family: Arial, Helvetica, sans-serif;">
-            <fieldset >
-                <legend><h4>User Information</h4></legend>
-                <label for="nome">What is your name:</label>
-                <br>
-                <input type="text" name="Username" placeholder="Please write your name" required>
-                <br>
-                <br>
-                <label for="email">What is your email:</label>
-                <br>
-                <input type="email" name="email" id="" placeholder="Please write yourr email" required>
-                <br>
-                <br>
-                <label for="password">What is your password:</label>
-                <br>
-                <input type="password" name="" id="" placeholder="write your password" required>
-                <br>
-                <br>
-                <label for="history">Tell us your history:</label>
-                <br>
-                <textarea name="history" id="" cols="50" rows="5" placeholder="please add your comment"
-                    required></textarea>
-                <br>
-                <br>
-                <label for="item">Do you have a item?</label>
-                <br>
-                <select name="item" id="">
-                    <option selected="true" disabled="disabled" required> -select a item</option>
-                    <option value="AA"> yes, i have a item</option>
-                    <option value="AB"> No, i dont have a item</option>
-                </select>
-                <br>
-                <br>
-                <Label for="gender"> <strong>Please select your benefits</strong></Label>
-                <br>
-                <input type="radio" name="UserBenefits" id="benefits1">
-                <label for="UserBenefits">Benefits 1</label>
-                <input type="radio" name="UserBenefits" id="benefits2">
-                <label for="UserBenefits">Benefits 2</label>
-                <input type="radio" name="UserBenefits" id="benefits3">
-                <label for="UserBenefits">Benefits 3</label>
-                <br>
-                <br>
-                <div><strong>Aceita termos e condições</strong></div>
-                <input type="checkbox" name="acepta" value="1" />
-                <span>Oprima aqui si desea aceptar los terminos y condiciones</span>
-                <br>
-                <br>
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
-                <button type="button">forgot password</button>
-            </fieldset>
-        </Form>
 
 
+            <Form style="width: 500px; margin-bottom: 100px; font-family: Arial, Helvetica, sans-serif;">
+                <fieldset>
+                    <legend>
+                        <h4>User Information</h4>
+                    </legend>
+                    <label for="nome">What is your name:</label>
+                    <br>
+                    <input type="text" name="Username" placeholder="Please write your name" required>
+                    <br>
+                    <br>
+                    <label for="email">What is your email:</label>
+                    <br>
+                    <input type="email" name="email" id="" placeholder="Please write yourr email" required>
+                    <br>
+                    <br>
+                    <label for="password">What is your password:</label>
+                    <br>
+                    <input type="password" name="" id="" placeholder="write your password" required>
+                    <br>
+                    <br>
+                    <label for="history">Tell us your history:</label>
+                    <br>
+                    <textarea name="history" id="" cols="50" rows="5" placeholder="please add your comment"
+                        required></textarea>
+                    <br>
+                    <br>
+                    <label for="item">Do you have a item?</label>
+                    <br>
+                    <select name="item" id="">
+                        <option selected="true" disabled="disabled" required> -select a item</option>
+                        <option value="AA"> yes, i have a item</option>
+                        <option value="AB"> No, i dont have a item</option>
+                    </select>
+                    <br>
+                    <br>
+                    <Label for="gender"> <strong>Please select your benefits</strong></Label>
+                    <br>
+                    <input type="radio" name="UserBenefits" id="benefits1">
+                    <label for="UserBenefits">Benefits 1</label>
+                    <input type="radio" name="UserBenefits" id="benefits2">
+                    <label for="UserBenefits">Benefits 2</label>
+                    <input type="radio" name="UserBenefits" id="benefits3">
+                    <label for="UserBenefits">Benefits 3</label>
+                    <br>
+                    <br>
+                    <div><strong>Aceita termos e condições</strong></div>
+                    <input type="checkbox" name="acepta" value="1" />
+                    <span>Oprima aqui si desea aceptar los terminos y condiciones</span>
+                    <br>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                    <button type="button">forgot password</button>
+                </fieldset>
+            </Form>
+        </div>
+
+        <div>
+            <h1>Actividades aula 5 y 6</h1>
+            <div>
+                <h3>Links Relativos</h3>
+                <button class="btn_task"><a class="link" href="sections/entregableN6.html">Prueba de link 1</a></button>
+            </div>
+            <div>
+                <h3>Links absolutos</h3>
+                <button class="btn_task"><a class="link" href="http://www.coderhouse.com/frontend">Curso de Frontend</a>
+                </button>
+            </div>
+            <div>
+                <h3>Link internos</h3>
+                <button class="btn_task"><a class="link" href="index.html#list_arepa">Arepas venezolanas</a>
+                </button>
+            </div>
+            <div>
+                <h3>Iframe uses: CSS generator</h3>
+                <iframe class="iframe1" src="https://cssgenerator.org/box-shadow-css-generator.html" width="800px"
+                    height="400px" frameborder="0"></iframe>
+            </div>
 
 
 
-    </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
