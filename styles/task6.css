@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+header {
+    width: auto;
+    height: auto;
+    background-color: rgb(42, 42, 56);
+    padding: 30px 30px;
+    
+}
+
+.description {
+    color: aliceblue;
+}
+
+.Biography {
+    height: auto;
+    width: 80%;
+    border-top: 2px;
+    border-color: aliceblue;
+    background-color: rgb(63, 63, 83);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.link {
+
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    border: 0;
+    border-radius: 6px;
+    width: 140px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon_back {
+    display: flex;
+    transition: transform 0.3s;
+    margin-right: 10px;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.url_back {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    margin-bottom: 10px;
+}
