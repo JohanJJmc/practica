@@ -31,7 +31,7 @@ header {
     transition: transform 0.3s;
     border: 0;
     border-radius: 6px;
-    width: 140px;
+    width: 180px;
     height: 34px;
     display: inline-flex;
     justify-content: center;
@@ -48,6 +48,7 @@ header {
 .link:hover {
     transform: scale(1.1);
     font-weight: bold;
+    box-shadow: 10px 8px 44px 0px rgba(0,0,0,0.76);
 }
 
 .url_back {
@@ -95,13 +96,14 @@ li {
     border-radius: 12px;
 }
 
-.container2{
+.container2 {
     display: inline-flex;
     align-items: center;
     width: 100%;
-    
+    margin-bottom: 100px;
 
-  }
+
+}
 
 
 .tablestask {
@@ -113,29 +115,69 @@ li {
     border-radius: 20px;
 }
 
-th,td {
+th,
+td {
     padding: 8px;
     text-align: left;
     border: 1px solid #b9b9b9;
-   
+
 }
+
 th {
     background-color: rgb(238, 248, 97);
     color: rgb(0, 0, 0);
     font-weight: bold;
-    
-    
-  }
-  td{
+
+
+}
+
+td {
     background-color: #f7f7f7;
-  }
+}
 
-  
-  .titletable{
+
+.titletable {
     margin-left: 30px;
-  }
+}
 
-  .video{
+.video {
     width: 25%;
     height: auto;
-  }
+
+}
+
+article{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.container3{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.img_article{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#postext{
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(134, 126, 209);
+}
+
+.datos{
+    text-align: center;
+    margin: 0%;
+    padding: 30px;
+    color: #f7f7f7;
+    line-height: 15px;
+
+}
