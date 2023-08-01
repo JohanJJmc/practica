@@ -83,3 +83,20 @@ margin-bottom: 30px;
     transition: 0.2s;
 }
 
+.container4{
+    width: 500px;
+    border: dotted;
+    padding: 30px;
+    height: 350px;
+   
+    
+  
+     }
+
+.boxSize{
+  
+    width: 95%;
+    height: 200px;
+    overflow: hidden scroll;
+    font-size: 20px;
+}
